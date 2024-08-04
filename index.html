@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+    <nav class="bg-blue-600 p-4 text-white">
+        <ul class="flex space-x-4">
+            <li><a href="index.html" class="hover:underline">Beranda</a></li>
+            <li><a href="about.html" class="hover:underline">Video Course</a></li>
+        </ul>
+    </nav>
+    <header class="bg-gray-200 p-8 text-center">
+        <h1 class="text-4xl font-bold">Selamat Datang di ARIPIN STUDY</h1>
+    </header>
+    <main class="p-8">
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">Pendahuluan</h2>
+            <p class="mb-4">Kami sangat senang Anda bergabung dengan kami dalam perjalanan pendidikan ini. Di sini, Anda akan menemukan video pembelajaran pembuatan webiste. Dengan panduan yang mudah diikuti dan tips praktis, saya bertujuan untuk memberikan pengalaman belajar yang menyenangkan dan bermanfaat. Bergabunglah dengan kami dan mulailah membangun situs web impian Anda hari ini! Silahkan kunjungi <a href="about.html" class="text-blue-600 hover:underline">Video Course</a> untuk melihat videonya.</p>
+            <img src="/asset/hero-bg.jpg" alt="Placeholder Image" class="mb-4">
+        </section>
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">Materi Pembelajaran</h2>
+            <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                    <tr>
+                        <th class="py-2 px-4 border-b">Daftar Materi</th>
+                        <th class="py-2 px-4 border-b">Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-2 px-4 border-b">Pembuatan Website Portolio Sederhana</td>
+                        <td class="py-2 px-4 border-b">Video pembelajaran yang membahas tentang kode yang terdapat dalam pembuatan website itu</td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border-b">HTML</td>
+                        <td class="py-2 px-4 border-b">Ada sintak dasar kode di bahasa html</td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border-b">CSS</td>
+                        <td class="py-2 px-4 border-b">Ada sintak dasar kode di bahasa CSS yang berfungsi untuk menghias tampilan website</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+            <form class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300 p-2">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full border border-gray-300 p-2">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2024 Education Website</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
